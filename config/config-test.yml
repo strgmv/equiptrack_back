@@ -1,0 +1,19 @@
+server:
+ Port: :5000
+ JwtSecretKey: secret
+ JwtMaxAge: 36000
+ ReadTimeout: 10
+ WriteTimeout: 10
+ CtxDefaultTimeout: 24
+ Debug: true
+
+logger:
+ level: debug
+
+database:
+ DbHost: 127.0.0.1
+ DbPort: 5432
+ DbUser: postgres
+ DbPassword: 123
+ Dbname: postgres
+ DbDriver: pgx
